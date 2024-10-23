@@ -1,0 +1,67 @@
+{
+    "Best_model": {
+        "val_r2": 0.6946488301222101,
+        "train_rmse": 0.43551179331138856,
+        "train_r2": 0.6997063984505685,
+        "val_rmse": 0.4420813598600008,
+        "selected_feature_names": [
+            "pickup_longitude",
+            "pickup_latitude",
+            "dropoff_longitude",
+            "dropoff_latitude",
+            "distance_short",
+            "dirction",
+            "mnhattan_short_path",
+            "passenger_count",
+            "pick_month",
+            "pick_day_of_week",
+            "pick_hour",
+            "pick_season",
+            "pick_time_period",
+            "is_weekend",
+            "store_and_fwd_flag",
+            "vendor_id"
+        ],
+        "dataset_metadata": {
+            "version": 0,
+            "version_description": {
+                "summry": "outliar and unfrequnt",
+                "new columns": [
+                    "pick_hour",
+                    "pick_day_of_week",
+                    "pick_month",
+                    "pick_season",
+                    "pick_time_period",
+                    "distance_short",
+                    "mnhattan_short_path",
+                    "dirction"
+                ],
+                "remove unfreqent data": null,
+                "remove outliar": null
+            },
+            "feature_names": [
+                "vendor_id",
+                "passenger_count",
+                "pickup_longitude",
+                "pickup_latitude",
+                "dropoff_longitude",
+                "dropoff_latitude",
+                "store_and_fwd_flag",
+                "trip_duration",
+                "distance_short",
+                "dirction",
+                "mnhattan_short_path",
+                "pick_hour",
+                "pick_day_of_week",
+                "pick_day",
+                "pick_month",
+                "is_weekend",
+                "pick_season",
+                "pick_time_period"
+            ],
+            "num_rows_train": 1000000,
+            "num_rows_val": 229319,
+            "timestamp": "2024-10-19 22:30:02"
+        }
+    }
+}

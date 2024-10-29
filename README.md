@@ -33,9 +33,9 @@ python load_test.py
 Trip-Duration-Prediction/
 │
 ├── mini_split/                    
-│   ├── test.csv                  
-│   ├── train.csv 
-│   ├── val.csv   
+│   ├── test.zip                 
+│   ├── train.zip 
+│   ├── val.zip 
 │
 ├── model/               
 │   ├── history.json     
@@ -52,9 +52,9 @@ Trip-Duration-Prediction/
 │       ├── val.csv      
 │
 ├── split/                     
-│   ├── test.csv          
-│   ├── train.csv          
-│   ├── val.csv          
+│   ├── test.zip      
+│   ├── train.zip          
+│   ├── val.zip        
 │
 ├── reports/                    
 │   ├── figures/                

@@ -105,21 +105,21 @@ Exploratory Data Analysis (EDA)
 -A log transformation was applied to address the right-skewed nature of trip duration, which improved the model's performance.
 
 **4.3. Outlier Handling**
-- Outliers in the trip_duration variable were identified using the IQR method and removed to prevent skewing the model.
+- Outliers in the trip_duration variable were identified using the IQR method and removed to prevent skewing the model **Note(it hase no effect on the model)**.
 
 5. Modeling
 - Initial models included:
-
 - Linear Regression: Provided a baseline R² score of ~0.55.
-6. Final Model - Ridge Regression
+
+- 6. Final Model - Ridge Regression
 - The final model chosen was Ridge Regression with an alpha value of 1. Ridge regression was selected to control overfitting by penalizing large coefficients.
 
 7. Model Performance
-- Train R² Score: 0.6997
-- Validation R² Score: 0.6946
-- The model explains about 69.9% of the variance in the trip duration.
+- Train R² Score: 0.70
+- Validation R² Score: 0.71
+- The model explains about 70% of the variance in the trip duration.
 
 6. Conclusion
-- Key Features: Trip distance, hour of the day, and Manhattan distance were the most important predictors of trip duration.
-- Model Effectiveness: Ridge regression with alpha=1 performed well, achieving a validation R² of 0.6946. The regularization technique - prevented overfitting.
+- Key Features: Trip distance, hour of the day, dirction, and Manhattan distance were the most important predictors of trip duration.
+- Model Effectiveness: Ridge regression with alpha=1 performed well, achieving a validation R² of 0.71. The regularization technique - prevented overfitting.
 - Feature Importance: Distance metrics and time-based features had the largest impact on the prediction of trip duration.

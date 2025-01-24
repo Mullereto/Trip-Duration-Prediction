@@ -4,7 +4,6 @@
 
 - [Project Overview](#project-overview)
 - [Installation and Usage](#installation)
-- [Project Structure](#project-structure)
 - [Data EDA](#data-eda)
 
 ## Project Overview
@@ -26,47 +25,6 @@ cd Trip-Duration-Prediction
 
 #run load_test.py
 python load_test.py
-```
-## Project Structure
-
-```bash
-Trip-Duration-Prediction/
-│
-├── mini_split/                    
-│   ├── test.zip                 
-│   ├── train.zip 
-│   ├── val.zip 
-│
-├── model/               
-│   ├── history.json     
-│   ├── baseline_info.json    
-│
-├── prepared_data/                       
-│   ├── 0/             
-│       ├── data_prepartion_details.json      
-│       ├── train.csv                
-│       ├── val.csv      
-│   ├── 1/             
-│       ├── data_prepartion_details.json      
-│       ├── train.csv                
-│       ├── val.csv      
-│
-├── split/                     
-│   ├── test.zip      
-│   ├── train.zip          
-│   ├── val.zip        
-│
-├── reports/                    
-│   ├── figures/                
-│   ├── Report.pdf              
-│
-├── load_test.py                     
-├── preparing_data.py                     
-├── saving_baseLine_model.py                     
-├── train.py                                        
-│            
-├── requirements.txt            
-├── README.md                                    
 ```
 ## DATA EDA
 
